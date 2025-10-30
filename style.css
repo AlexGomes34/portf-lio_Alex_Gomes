@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    background-color: antiquewhite;
+    margin: 30px;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+header.cabecalho{
+    display: flex;
+    flex-direction: column;
+}
+.introducao{
+    font-size: 2rem;
+}
+.desc{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.imagem-eu{
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+}
+.imagem{
+    height: 400px;
+    border-radius: 30px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
