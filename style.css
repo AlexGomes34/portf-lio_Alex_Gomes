@@ -147,13 +147,12 @@ footer{
     font-size: 90%;
 }
 
-div{
+footer div{
     display: flex;
     align-items: center;
     gap: 10px;
 }
-
-img{
+.img{
     height: auto;
     width: 35px;
 }
