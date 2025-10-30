@@ -39,7 +39,121 @@ header.cabecalho{
 }
 
 main{
+    border-radius: 30px;
     display: flex;
+    width: 100%;
     flex-direction: column;
     background-color: whitesmoke;
+    height: auto;
+    padding: 30px;
+}
+.secao1{
+    display: flex;
+    width: 100%;
+    place-content: center;
+    justify-content: space-between;
+}
+.habilidades{
+    width: 100%;
+}
+.texto-ha{
+    place-self: center;
+    padding: 30px;
+}
+.habilidades2{
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    padding-bottom: 30px;
+}
+.hability{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: auto;
+    place-content: center;
+    align-items: center;
+    background-color: white;
+    width: 200px;
+    border-radius: 30px;
+}
+.logo{
+    place-self: center;
+    height: 80px;
+
+}
+.nome-ha{
+    place-self: center;
+    padding-bottom: 20px;
+}
+.projetos{
+    width: 100%;
+    gap: 30px;
+}
+.projeto2{
+    place-self: center;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    padding-bottom: 30px;
+    background-color: wheat;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.imagem3{
+    height: 400px;
+}
+.banco{
+    height: 300px;
+}
+.cidade{
+    height: 300px;
+}
+.link{
+    padding: 30px;
+}
+.dog{
+    height: 300px;
+}
+
+.competencias{
+    width: 100%;
+    gap: 30px;
+}
+
+.secao3{
+    display: flex;
+    width: 100%;
+    place-content: center;
+    justify-content: space-between;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: var(--fifth-color);
+    color: whitesmoke;
+    padding: 3%;
+    font-size: 90%;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+img{
+    height: auto;
+    width: 35px;
 }
